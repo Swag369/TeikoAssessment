@@ -1,0 +1,30 @@
+- NO statistically significant difference in relative frequencies between responders and non-responders for b_cell at time 0.
+  - Mann-Whitney findings that p=0.5485 (median non-responder=9.76%, median responder=9.79%).
+- NO statistically significant difference in relative frequencies between responders and non-responders for b_cell at time 7.
+  - Mann-Whitney findings that p=0.1439 (median non-responder=9.97%, median responder=9.23%).
+- YES statistically significant difference in relative frequencies between responders and non-responders for b_cell at time 14.
+  - Mann-Whitney findings that p=0.0144 (median non-responder=9.84%, median responder=9.11%).
+- NO statistically significant difference in relative frequencies between responders and non-responders for cd4_t_cell at time 0.
+  - Mann-Whitney findings that p=0.7964 (median non-responder=29.53%, median responder=29.63%).
+- YES statistically significant difference in relative frequencies between responders and non-responders for cd4_t_cell at time 7.
+  - Mann-Whitney findings that p=0.0297 (median non-responder=29.55%, median responder=30.45%).
+- NO statistically significant difference in relative frequencies between responders and non-responders for cd4_t_cell at time 14.
+  - Mann-Whitney findings that p=0.0755 (median non-responder=30.07%, median responder=30.79%).
+- NO statistically significant difference in relative frequencies between responders and non-responders for cd8_t_cell at time 0.
+  - Mann-Whitney findings that p=0.5140 (median non-responder=24.60%, median responder=24.40%).
+- NO statistically significant difference in relative frequencies between responders and non-responders for cd8_t_cell at time 7.
+  - Mann-Whitney findings that p=0.6377 (median non-responder=24.77%, median responder=24.70%).
+- NO statistically significant difference in relative frequencies between responders and non-responders for cd8_t_cell at time 14.
+  - Mann-Whitney findings that p=0.7407 (median non-responder=24.56%, median responder=25.08%).
+- NO statistically significant difference in relative frequencies between responders and non-responders for monocyte at time 0.
+  - Mann-Whitney findings that p=0.2114 (median non-responder=20.29%, median responder=19.61%).
+- NO statistically significant difference in relative frequencies between responders and non-responders for monocyte at time 7.
+  - Mann-Whitney findings that p=0.4841 (median non-responder=20.03%, median responder=19.60%).
+- NO statistically significant difference in relative frequencies between responders and non-responders for monocyte at time 14.
+  - Mann-Whitney findings that p=0.6471 (median non-responder=19.75%, median responder=19.62%).
+- NO statistically significant difference in relative frequencies between responders and non-responders for nk_cell at time 0.
+  - Mann-Whitney findings that p=0.8853 (median non-responder=14.89%, median responder=15.00%).
+- NO statistically significant difference in relative frequencies between responders and non-responders for nk_cell at time 7.
+  - Mann-Whitney findings that p=0.1378 (median non-responder=14.80%, median responder=14.42%).
+- NO statistically significant difference in relative frequencies between responders and non-responders for nk_cell at time 14.
+  - Mann-Whitney findings that p=0.3147 (median non-responder=14.65%, median responder=14.35%).

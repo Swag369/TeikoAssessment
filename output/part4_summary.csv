@@ -1,0 +1,7 @@
+dimension,value,count
+project_sample_count,prj1,384
+project_sample_count,prj3,272
+subject_response_count,no,325
+subject_response_count,yes,331
+subject_sex_count,F,312
+subject_sex_count,M,344
