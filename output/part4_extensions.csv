@@ -1,7 +1,8 @@
-dimension,value,count
-poject_sample_count,prj1,384
-poject_sample_count,prj3,272
-response_sample_count,no,325
-response_sample_count,yes,331
+metric,identifier,count
+project_sample_size,prj1,384
+project_sample_size,prj2,0
+project_sample_size,prj3,272
+response_sample_size,no,325
+response_sample_size,yes,331
 sex_sample_count,F,312
 sex_sample_count,M,344
