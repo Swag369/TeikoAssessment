@@ -1,4 +1,4 @@
-1) Any instructions needed to run your code and reproduce the outputs (We will run your code using GitHub Codespaces).
+### Any instructions needed to run your code and reproduce the outputs (We will run your code using GitHub Codespaces).
 
 ```
 make setup
@@ -9,7 +9,7 @@ make dashboard
 GitHub Codespaces should provide the required environment. If `make` or `python` are not available in the selected Codespaces image, they may need to be installed first.
 
 
-2) An explanation of the schema used for the relational database, with rationale for the design and how this would scale if there were hundreds of projects, thousands of samples and various types of analytics you’d want to perform.
+### An explanation of the schema used for the relational database, with rationale for the design and how this would scale if there were hundreds of projects, thousands of samples and various types of analytics you’d want to perform.
 
 I split up the data based on projects, subjects, sample details, and sample data. The tables for projects, subjects, and samples are straightforward - a project can have many subjects, who can have many samples. Currently, a subject can only belong to a single project, based on the data I was given, but if this is different in the actual domain, this can be altered to support a many to many setup.
 
@@ -21,7 +21,7 @@ I also have 2 other indexes, that just focuses on the filter criteria for parts 
 
 Further optimizing an indexing strategy would likely be relevant depending on the type of queries the DB sees. I like indexes here because these medical trial workloads would presumably have much more reading volume than write volume, so we benefit more in read performance than we lose in write performance with the inclusion of the index.
 
-3) A brief overview of your code structure and an explanation of why you designed it the way you did.
+### A brief overview of your code structure and an explanation of why you designed it the way you did.
 
 I set up the project structure to mirror the questions. Parts 2, 3, and 4 of the challenge are addressed by the files with the same names.
 
@@ -36,6 +36,6 @@ For the second part, I knew Welch's t-test and Mann-Whitney tests were the relev
 For the dashboard, I kept it minimal and put everything on a single page due to time constraints. Since the instructions mentioned that make pipeline would be run before make dashboard, I used streamlit to just display the precomputed results. This could be vastly improved by having it compute live + caching results when possible, a better customized UI etc - but for the sake of managing scope, i de-prioiritized this.
 
 
-4) A link to the dashboard.\
+### A link to the dashboard
 https://teikoassessment-jwyycuip2kf9lyanpdr7bh.streamlit.app/ \
 http://localhost:8501 <- when locally spinning up
