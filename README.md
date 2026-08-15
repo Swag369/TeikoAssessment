@@ -1,8 +1,8 @@
 1) Any instructions needed to run your code and reproduce the outputs (We will run your code using GitHub Codespaces).
 
-make setup
+```make setup
 make pipeline
-make dashboard
+make dashboard```
 
 GitHub Codespaces should provide the required environment. If `make` or `python` are not available in the selected Codespaces image, they may need to be installed first.
 
@@ -35,4 +35,5 @@ For the dashboard, I kept it minimal and put everything on a single page due to 
 
 
 4) A link to the dashboard.
-http://localhost:8501
+https://teikoassessment-jwyycuip2kf9lyanpdr7bh.streamlit.app/
+http://localhost:8501 <- when locally spinning up
